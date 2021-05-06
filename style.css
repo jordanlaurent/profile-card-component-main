@@ -1,0 +1,38 @@
+/*body html */
+html{font-size: 18px;}
+body{  background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg") ;
+    background-repeat: no-repeat,no-repeat;
+    background-position:top -510px left -220px, top 390px right -280px; width: 100%;margin: 0;background-color: hsl(185, 75%, 39%);}
+
+/*card */
+.card { border-radius: 10px; display: flex; flex-direction: column;position: absolute; align-items: center; top: 25%;left: 40%; text-align: center;background-color: white; }
+
+/*img card blue top */
+.imgTop{background-image: url("./images/bg-pattern-card.svg");padding: 17%;left: 0;position: absolute;right: 0; z-index: 0;border-top-left-radius: 10px;border-top-right-radius: 10px;}
+
+/*img profile card */
+img{width: 25%; border-radius: 50%; z-index: 1; margin-top: 80px;border: 6px solid white;}
+
+/*hr */
+.slide{border: 1px solid gainsboro; margin-bottom: -3%; margin-top: 1%;}
+
+/*card number*/
+.number{display: flex; }
+
+/*attribution */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+.attribution{position: fixed; bottom: 10px;}
+
+/*font */
+ul{padding-left: 35px;padding-right: 35px;}
+.txtSecondary{color: rgb(128, 128, 128);font-size: 14px;margin-top: -10%;}
+.number .txtSecondary{margin-top: -30%;}
+.number26{font-size: 18px;  font-weight: 500;}
+@media only screen and (max-width: 375px) { 
+    body{  background-position:top -600px left -690px, top 370px right -760px;}
+.card {  top: 25%;left: 6%; right: 6%; }
+.imgTop{padding: 21%; }
+img{width: 38%;}
+ul{padding-left: 29px;padding-right: 30px;}
+}
