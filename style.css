@@ -25,7 +25,7 @@ img{width: 25%; border-radius: 50%; z-index: 1; margin-top: 80px;border: 6px sol
 .attribution{position: fixed; bottom: 10px;}
 
 /*font */
-.ul{padding-left: 30px;padding-right: 30px;}
+.ul{padding-left: 30px;padding-right: 30px;padding-bottom: 6px;}
 .txtSecondary{color: rgb(128, 128, 128);font-size: 14px;margin-top: -10%;}
 .number .txtSecondary{margin-top: -30%;}
 .number26{font-size: 18px;  font-weight: 500;}
